@@ -5,7 +5,7 @@
 --main_color:#fff;
 --title:'josefin Sans',sans-serif;
 --font-para:'David Libre',serif;
---btn-color:#bbe1fa;
+--btn-color: rgb(212 238 255 / 90%);
 --btn-font-color:#000;
 --btn-font:1.5rem;
 --eff:.3s all ease;
@@ -39,13 +39,13 @@ a:hover{
 body{
   background: hsl(84, 3%, 94%);
 }
-.main-heading{
+.main_heading{
   font-family: var(--title);
   font-weight: bold;
   font-size: 5rem;
   color: #000;
 }
-.main-heading-para{
+.main_heading_para{
   font-size: 2.2rem;
 }
 .main_header__div{
@@ -56,7 +56,7 @@ body{
 }
 .main_header__div p{
   font-weight: bold;
-  font-family: 3,5rem;
+  font-size: 3.6rem;
   font-family: var(--title);
   color: var(--main_color);
   padding-bottom: 1rem;
@@ -191,6 +191,10 @@ figure img:hover,
   font-weight: bold;
   font-size: 3rem;
 }
+figure img {
+  max-width: var(--bg-size);
+  height: auto;
+}
 .blog_left__div .blog_title{
   font-weight: 400;
   font-size: 2.2rem;
@@ -299,12 +303,12 @@ padding-left: 2rem;
 .right_sub_div .row:last-child{
 margin-bottom: 0;
 }
-.row>.right_div_post{
+.row.right_div_post{
   padding-left: 0;
   padding-right: 0;
 }
 .right_sub_div .row h3 ,p{
-  padding-left: 6.5rem;
+  padding-left: 9.5rem;
   /* line-height: 100%; */
 }
 /* tags style */
